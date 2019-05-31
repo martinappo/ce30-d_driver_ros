@@ -4,7 +4,7 @@ This page is set up for CE30-D SDK technical support. For product information ab
 
 #### Get Started
 
-The `ce30_driver_ros` provides ROS interfaces to the `ce30_driver`. For more information about the `ce30_driver`, click [here](https://github.com/martinappo/ce30_driver.git).
+The `ce30d_driver_ros` provides ROS interfaces to the `ce30_driver`. For more information about the `ce30_driver`, click [here](https://github.com/martinappo/ce30_driver.git).
 
 <img src="media/ce30_pointcloud_in_rviz.png" width="85%">
 
@@ -12,13 +12,13 @@ The `ce30_driver_ros` provides ROS interfaces to the `ce30_driver`. For more inf
 
 |         Node         | I/O  | Topic Name  | Message Type                             | Description         |
 | :------------------: | :--: | ----------- | ---------------------------------------- | ------------------- |
-| ce30_driver_ros_node | Out  | ce30_points | [sensor_msgs::PointCloud](http://docs.ros.org/api/sensor_msgs/html/msg/PointCloud.html) | CE30-D Measurements |
+| ce30d_driver_ros_node | Out  | ce30_points | [sensor_msgs::PointCloud](http://docs.ros.org/api/sensor_msgs/html/msg/PointCloud.html) | CE30-D Measurements |
 
 #### Parameters
 
 |         Node         |   Name   |  Type  | Default Value | Descriptions |
 | :------------------: | :------: | :----: | :-----------: | :----------: |
-| ce30_driver_ros_node | frame_id | String |     ce30      |   Frame ID   |
+| ce30d_driver_ros_node | frame_id | String |     ce30      |   Frame ID   |
 
 #### Version
 

@@ -1,4 +1,12 @@
 <launch>
-    <node name="ce30_driver_ros_node" pkg="ce30_driver_ros" type="ce30_driver_ros_node"/>
+    <node name="ce30d_node" pkg="ce30d_driver_ros" type="ce30d_driver_ros_node" output="screen">
+        <param name="ip" type="string" value="192.168.88.11" />
+        <param name="frameId" type="string" value="ce30d_lidar" />
+
+        <!-- In order to change IP of the device, uncomment the below line and change ip address. The node will then launch and change the IP of the device and then exit.
+        The next time you launch your node, you should change parameter ip above. NB! use the ip format as below example! -->
+        <!--param name="newIp" type="string" value="192 168 88 11" /-->
+    </node>
+
     <node pkg="tf" type="static_transform_publisher" name="ce30_to_map" args="0 0 0 0 0 0 map ce30 1000"/>
 </launch>

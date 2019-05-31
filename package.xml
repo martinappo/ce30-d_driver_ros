@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-    <name>ce30_driver_ros</name>
+    <name>ce30d_driver_ros</name>
     <version>0.0.0</version>
-    <description>The ce30_driver_ros package</description>
+    <description>The ce30d_driver_ros package</description>
 
     <maintainer email="martinappo@gmail.com">Martin Appo</maintainer>
 
