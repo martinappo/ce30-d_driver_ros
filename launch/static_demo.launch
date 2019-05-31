@@ -8,5 +8,5 @@
         <!--param name="newIp" type="string" value="192 168 88 11" /-->
     </node>
 
-    <node pkg="tf" type="static_transform_publisher" name="ce30_to_map" args="0 0 0 0 0 0 map ce30 1000"/>
+    <node pkg="tf" type="static_transform_publisher" name="ce30_to_map" args="0 0 0 0 0 0 map ce30d_lidar 1000"/>
 </launch>
